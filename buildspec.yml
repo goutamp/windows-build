@@ -8,3 +8,4 @@ phases:
 artifacts:
   files:
     - .\bin\Debug\netcoreapp1.0\*
+    - appspec.yml
