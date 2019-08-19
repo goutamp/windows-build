@@ -9,3 +9,5 @@ artifacts:
   files:
     - .\bin\Debug\netcoreapp1.0\*
     - appspec.yml
+    - StageArtifacts.ps1
+    - CreateWebSite.ps1
