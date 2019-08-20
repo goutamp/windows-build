@@ -4,7 +4,7 @@ function DeleteIfExistsAndCreateEmptyFolder($dir )
 {
     if ( Test-Path $dir ) {    
            Get-ChildItem -Path  $dir -Force -Recurse | Remove-Item -force –
-							  recurse
+				recurse
            Remove-Item $dir -Force
     }
     New-Item -ItemType Directory -Force -Path $dir
