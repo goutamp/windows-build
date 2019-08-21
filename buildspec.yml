@@ -14,3 +14,4 @@ phases:
 artifacts:
   files:
     - .\CSharpHelloWorld\bin\Debug\*
+    - .\appspec.yml
