@@ -6,4 +6,5 @@ files:
   
 hooks:
   BeforeInstall:
+    - location: .\CopyFile.ps1
     - location: .\CreateWebSite.ps1
